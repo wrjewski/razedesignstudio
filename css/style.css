@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'New Amsterdam';
-    src: url('/assets/fonts/NewAmsterdam-Regular.ttf') format('opentype');
+    src: url('assets/fonts/NewAmsterdam-Regular.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NeueMachina';
-    src: url('/assets/fonts/PPNeueMachina-InktrapRegular.otf') format('opentype');
+    src: url('assets/fonts/PPNeueMachina-InktrapRegular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'BebasNeue';
-    src: url('/assets/fonts/BebasNeue-Regular.ttf') format('opentype');
+    src: url('assets/fonts/BebasNeue-Regular.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .hero {
-    background: url('/assets/images/dark-gradient-bg.jpg') no-repeat center center/cover;
+    background: url('assets/images/dark-gradient-bg.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
