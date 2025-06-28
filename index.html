@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home | My Portfolio Site</title>
+        <link rel="icon" type="image/png" href="/assets/images/Raze.png" />
+        <link rel= "stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        
+
+        <!-- HERO SECTION -->
+        <section id="home" class="hero">
+            <img src="/assets/images/Raze-DS-Logo.svg" alt="Raze Logo" class="hero-logo" />
+            <div class="hero-text">
+                <h2>PERSONALIZED WEBSITE<br>FOR YOUR UNIQUE<br>BUSINESS</h2>
+                <p>responsive, clean websites for real-world users.</p>
+                <a href="#about" class="btn">View My Work</a>
+            </div>
+            <img src="/assets/images/headshot.png" alt="Photo of Ray" class="hero-headshot" />
+            <img src="/assets/images/interact-btn.svg" alt="slide down button" class="interact-btn" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })" />
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about">
+            <!-- <h2 class="about-title">About me</h2> -->
+            <div class="about-container">
+                <img src="/assets/images/Raze.png" alt="Photo of Ray" class="profile-pic" />
+                <div class="about-text">
+                    <p>I'm a passionate web developer dedicated to crafting clean, responsive, 
+                    and user-centered websites. <br><br>I specialize in turning creative ideas into 
+                    engaging digital experiences through thoughtful design and modern development 
+                    practices. Driven by curiosity and a desire to grow, I'm always pushing myself 
+                    to learn new technologies and refine my skills.<br><br>If you're looking for a developer 
+                    who brings both creativity and reliability to the table, I'm your guy.
+                    </p>
+
+                    <h3>My Skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Vue</li>
+                        <li>Python</li>
+                        <li>AWS</li>
+                        <li>Google Cloud</li>
+                        <li>Firebase</li>
+                        <li>Firestore</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT SECTION -->
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="/assets/images/portfolio.png" alt="Screenshot of Project 1" />
+                    <h3>Portfolio Website</h3>
+                    <p>Built from scratch using HTML, CSS, and JavaScript, 
+                    it features a fully responsive layout, custom styling, and interactive elements to 
+                    enhance user engagement and experience.<br><br>
+                    </p>
+                    <a href="#" class="project-link">you are already here!</a>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/images/vararam.png" alt="Screenshot of Project 2" />
+                    <h3>Vararam Industries</h3>
+                    <p>Vararam, a Houston-based manufacturer specializing in custom Ram Air systems.
+                    This project involved designing and developing a fully custom Shopify theme built 
+                    with Shopify Liquid.<br><br>
+                    </p>
+                    <a href="https://vararam-com.myshopify.com" class="project-link" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/images/PulseCore Homepage.svg" alt="Screenshot of Project 3" />
+                    <h3>PulseCore Training</h3>
+                    <p>Built with HTML, CSS, and JavaScript, PulseCore 
+                    Training blends modern design with bold branding, featuring 
+                    a dynamic hero, trainer highlights, and booking-ready sections 
+                    for clients to connect with certified personal coaches.
+                    </p>
+                    <a href="#" class="project-link">IN PROGRESS</a>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/images/drip-and-grind.svg" alt="Screenshot of Project 4" />
+                    <h3>Drip & Grind</h3>
+                    <p>Designed and developed from scratch HTML, CSS, 
+                    and JavaScript, Drip & Grind brings a cozy neighborhood 
+                    coffee vibe online with a welcoming layout, handwritten touches, 
+                    and features for browsing the menu and connecting with the café community.
+                    </p>
+                    <a href="#" class="project-link">IN PROGRESS</a>
+                </div>
+                
+            </div>
+            <div class="scroll-to-contact" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+                <img src="/assets/images/interact-btn.svg" alt="scroll to contact" />
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://github.com/wrjewski" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/ray-andrzejewski-597022180/" target="_blank">LinkedIn</a>
+            </div>
+            <img src="/assets/images/interact-btn-up.svg"
+            alt="Back to Top"
+            class="interact-btn"
+            onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' })" />
+
+        </section>
+
+        <script src="js/script.js"></script>
+
+        <footer class="footer">
+            <p>&copy; 2025 Raze Designs. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
